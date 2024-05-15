@@ -1,0 +1,71 @@
+/* App.css */
+body {
+  display: flex;
+  justify-content: center; /* Centrer horizontalement */
+  align-items: center; /* Centrer verticalement */
+  height: 100vh; /* Pour occuper toute la hauteur de la fenêtre */
+  margin: 0; /* Supprimer les marges par défaut */
+  background-color: #fff;
+}
+
+.calculator {
+  max-width: 400px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Pour centrer le contenu horizontalement */
+}
+
+h1 {
+  text-align: center;
+}
+
+#display {
+  width: calc(100% - 20px);
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 1.5em;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+  justify-content: center; /* Pour centrer le contenu horizontalement */
+}
+
+button {
+  padding: 15px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ccc;
+}
+
+.gray-light {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.gray-dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.orange {
+  background-color: orange;
+  color: white;
+}
+
+.long-button {
+  grid-column: span 2;
+}
+
