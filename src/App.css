@@ -1,10 +1,9 @@
-/* App.css */
 body {
   display: flex;
-  justify-content: center; /* Centrer horizontalement */
-  align-items: center; /* Centrer verticalement */
-  height: 100vh; /* Pour occuper toute la hauteur de la fenêtre */
-  margin: 0; /* Supprimer les marges par défaut */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
   background-color: #fff;
 }
 
@@ -15,7 +14,7 @@ body {
   background-color: #000;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  text-align: center; /* Pour centrer le contenu horizontalement */
+  text-align: center; 
 }
 
 h1 {
@@ -35,7 +34,7 @@ h1 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 5px;
-  justify-content: center; /* Pour centrer le contenu horizontalement */
+  justify-content: center;
 }
 
 button {
